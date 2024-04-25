@@ -14,7 +14,7 @@ describe.only('Telus Automation', () => {
     let locationGrp = '.location.border-top.border-top';
     cy.viewport(1280, 720);
 
-    cy.visit('https://www.telusinternational.ai/cmp')
+    cy.visit('https://www.telusinternational.ai/cmp');
     EnterText('Email', 'jonathancenetamauricio@gmail.com');
     ClickButtonUsingText('Continue');
     EnterText('Password', '@Password2023');
@@ -39,6 +39,6 @@ describe.only('Telus Automation', () => {
     ClickButtonUsingText('Save');
     ClickDiv('User Avatar');
     ClickLink('Sign Out');
-    
+    ///THIS IS A TESTING
   })
 })
